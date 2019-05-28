@@ -1,0 +1,36 @@
+{
+  "name": "simple-api",
+  "version": "0.0.1",
+  "description": "Simple REST API",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j0nzz/simple-api.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "express",
+    "node",
+    "docker"
+  ],
+  "author": "Jonathan Pinto Barbosa <jonathanpbarbosa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j0nzz/simple-api/issues"
+  },
+  "homepage": "https://github.com/j0nzz/simple-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}
